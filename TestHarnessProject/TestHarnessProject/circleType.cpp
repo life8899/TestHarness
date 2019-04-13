@@ -5,6 +5,8 @@ using namespace std;
 
 const double PI = 3.1415926;
 
+
+
 void circleType::setRadius(double r)
 {
 	if (r >= 0)
@@ -18,15 +20,7 @@ double circleType::getRadius() const
 	return radius;
 }
 
-void circleType::setColor(string c) 
-{
-	color = c;
-}
 
-string circleType::getColor()
-{
-	return color;
-}
 
 double circleType::area() const
 {
@@ -41,7 +35,9 @@ double circleType::circumference() const
 circleType::circleType(double r)
 {
 	setRadius(r);
+	
 }
+
 
 void circleType::print() const
 {

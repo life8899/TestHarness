@@ -9,7 +9,7 @@
 class circleType
 {
 	public:
-				
+		
 		void setRadius(double r);
 		//Function to set the radius.
 		//Postcondition: if (r >= 0) radius = r;
@@ -19,10 +19,7 @@ class circleType
 		//Function to return the radius.
 		//Postcondition: The value of radius is returned.
 
-		void setColor(string c);
-
-		string getColor();
-
+		
 		double area() const;
 		//Function to return the area of a circle.
 		//Postcondition: Area is calculated and returned.
@@ -43,7 +40,7 @@ class circleType
 
 	private:
 		double radius;
-		string color;
+		
 };
 
 #endif 
